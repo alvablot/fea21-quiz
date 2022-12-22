@@ -9,7 +9,7 @@ const person = {
 // OBS: Du får inte ändra funktions-parametrarna.
 function printName(first, last) {
     // Skriv din kod här
-    console.log(first + " " + last);
+    return (first + " " + last);
 }
 
 // Du kommer även behöva ändra anropet här nedan

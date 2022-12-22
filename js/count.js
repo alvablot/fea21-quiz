@@ -4,8 +4,8 @@
 // som anges som parameter till funktionen
 
 function count(string) {
-  // Skriv din kod här inne
-
+  const stringArray = string.split("")
+  return stringArray.length
 }
 
 // Ändra inte dessa

@@ -28,7 +28,7 @@ const Four = () => {
         return <div data-testid="four-name">No user found</div>;
     }
 
-    return <div data-testid="four-name">My name is: {`${user.firstName} ${user.lastName}`}</div>;
+    return <div data-testid="four-name">My name is: {user.firstName}</div>;
 };
 
 export default Four;

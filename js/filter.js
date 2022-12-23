@@ -5,17 +5,15 @@
 const nastyFoods = ["Pannkakor", "Lingonsylt", "Fläsksvålar"];
 
 function noNastyFood(array) {
-    // Jag är dum i huvudet, orkar inte...
-    let newArray = [];
-    array.map((noNasty, i) => {
-        newArray.push(
-            array.filter((element) => {
-                element === noNasty;
-            })
-        );
-    });
 
-    return newArray;
+    const filterArray = (array, nastyFoods) => {
+        const filtered = array.filter((el) => {
+            return nastyFoods.indexOf(el) === -1;
+        });
+        return filtered;
+    };
+
+    return filterArray(array, nastyFoods);
 }
 const result = noNastyFood(["Korv", "Sylta", "Pannkakor", "Chips", "Lingonsylt"]);
 console.log(result); // ["Korv", "Sylta", "Chips"]

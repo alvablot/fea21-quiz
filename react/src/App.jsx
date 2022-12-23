@@ -11,11 +11,11 @@ import Six from "./challenges/Six";
 // Kommentera ut nästa steg
 // efter hand som du löser uppgifterna.
 const problems = [
-  // <One />,
-  // <Two items={["Bedrock", "Graphite", "Flint"]} />,
- //  <Three items={["Bedrock", 1, "Graphite", 2, "Flint", 3]} />,
-  //<Four />,
-  //<Five />,
+  <One />,
+  <Two items={["Bedrock", "Graphite", "Flint"]} />,
+  <Three items={["Bedrock", 1, "Graphite", 2, "Flint", 3]} />,
+  <Four />,
+  <Five />,
   <Six />,
 ];
 
